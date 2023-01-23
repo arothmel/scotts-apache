@@ -38,7 +38,7 @@ $ docker exec -u 0 -it [the-ID] /bin/sh
 
 Here you can create your own web page.
 
-'''
+```
 docker exec -u 0 -it 00ce5c725f21 /bin/sh
 sh-5.2# history
     1  cd /var/www/html/
@@ -47,7 +47,9 @@ sh-5.2# history
     4  exit
     5  history
 sh-5.2# 
-'''
+
+```
+
 Next time we will will load the web page with the Dockerfile :)
 
 
