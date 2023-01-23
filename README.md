@@ -24,8 +24,8 @@ ENTRYPOINT /usr/sbin/httpd -DFOREGROUND
 Run the following from the command line within the directory that you created named apache
 
 ```
-# docker build --rm -t testsite httpd/
 # docker build --rm -t myhttp .
+# docker run -d -p 8081:80 myhttp
 
 ```
 
